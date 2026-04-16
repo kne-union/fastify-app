@@ -69,8 +69,8 @@
     }
   },
   "devDependencies": {
-    "@craco/craco": "^7.1.0",
-    "@kne/modules-dev": "^2.0.14",
+    "@kne/craco": "^7.1.2",
+    "@kne/modules-dev": "^2.2.1",
     "@kne/react-fetch": "^1.4.3",
     "@kne/remote-loader": "^1.2.3",
     "@loadable/component": "^5.16.3",
@@ -92,6 +92,6 @@
   "dependencies": {
     "@kne/axios-fetch": "^1.0.7",
     "@kne/token-storage": "^1.0.0",
-    "@kne/use-ref-callback": "^0.1.2"
+    "@kne/use-ref-callback": "^0.1.3"
   }
 }
