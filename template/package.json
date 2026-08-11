@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "<%=description%>",
   "scripts": {
-    "init": "npm run init-server && husky",
+    "init": "npm run init-server && husky && npx @kne/npm-tools deployPrompts fastify-project",
     "init-server": "cd server && npm install",
     "start": "run-p start-frontend start-server",
     "start-server": "cd server && npm run dev",
